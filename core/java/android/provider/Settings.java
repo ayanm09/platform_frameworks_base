@@ -4875,6 +4875,13 @@ public final class Settings {
         };  
         public static final String ANIMATION_CONTROLS_DURATION = "animation_controls_duration";
 
+       /**
+         * Toast animations
+         *
+         * @hide
+         */
+        public static final String TOAST_ANIMATION = "toast_animation";
+
         /**
          * Change quick settings tiles animation style
          *
