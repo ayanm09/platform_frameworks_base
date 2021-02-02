@@ -71,7 +71,7 @@ public class FODAnimation extends ImageView {
         "fod_rog_supernova_recognizing_anim",
     };
 
-    private final String mFodAnimationPackage = "com.bliss.fod.animations";
+    private final String mFodAnimationPackage;
 
     private static final boolean DEBUG = true;
     private static final String LOG_TAG = "FODAnimations";

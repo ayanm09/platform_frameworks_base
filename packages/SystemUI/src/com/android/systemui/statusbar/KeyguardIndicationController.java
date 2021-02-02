@@ -531,9 +531,8 @@ public class KeyguardIndicationController implements StateListener,
         }
     }
 
-    public void updateChargingIndication(int style) {
-        mChargingIndication = style;
-        if (mPowerPluggedIn) {
+    public void updateChargingIndication() {
+           if (mPowerPluggedIn) {
             if (hasActiveInDisplayFp()) {
                 if (mFODPositionY != 0) {
                     // Get screen height
@@ -565,7 +564,8 @@ public class KeyguardIndicationController implements StateListener,
                     mChargingIndicationView.setLayoutParams(params);
                 }
             }
-        }
+         }
+       }
         public void updateChargingIndicationStyle() {
         switch (mChargingIndication) {
             default:
